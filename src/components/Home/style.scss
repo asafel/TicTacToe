@@ -1,0 +1,40 @@
+
+.home-container{
+    margin-top: 30px;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 500px;
+
+    .turn-container {
+        margin-top: 35px;
+    }
+
+    .home-header {
+        font-family: 'Gamja Flower', cursive;
+        font-size: 45px;
+        color: #9494ff;
+    }
+
+    .restart-btn {
+        position: relative;
+        border: 1px solid black;
+        height: 30px;
+        width: 100;
+        line-height: 30px;
+        border-radius: 14px;
+        cursor: pointer;
+        top: 20px;
+        left: 58px;
+        
+        &:hover {
+            transition: all 0.4s;
+            background-color: #f6f6f9;
+        }
+    }
+
+}
+

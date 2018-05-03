@@ -1,0 +1,10 @@
+.board-container {
+    margin-top: 15px;
+
+    .board-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+   
+}
